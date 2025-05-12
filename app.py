@@ -10,7 +10,7 @@ correct_mcq = "노랑"
 
 st.subheader("2. 우리나라의 수도는 어디인가요?")
 answer_subjective = st.text_input("정답을 입력하세요")
-correct_subjective = "서울울"
+correct_subjective = "서울"
 
 if st.button("제출하기"):
     if answer_mcq == correct_mcq:
